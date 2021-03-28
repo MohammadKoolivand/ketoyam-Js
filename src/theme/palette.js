@@ -1,11 +1,11 @@
 export default {
   primary: {
-    main: '#324958',
+    main: '#ffbd31',
     contrastText: '#fff'
   },
   secondary: {
-    main: '#263943',
-    contrastText: '#87e4b0'
+    main: '#00607f',
+    contrastText: '#1f7a99'
   },
   text: {
     primary: '#fff',

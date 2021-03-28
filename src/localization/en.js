@@ -1,10 +1,36 @@
 export default {
-  name: 'Farshid Karami',
-  home: 'HOME',
-  about: 'ABOUT',
-  resume: 'RESUME',
-  portfolios: 'PORTFOLIOS',
-  contact: 'CONTACT',
+  name: 'Ketoyam',
+  home: 'Home',
+  aboutus: 'About us',
+  explore: 'Explore',
+  mybooks: 'My books',
+  groups: 'Groups',
+  friends: 'Friends',
+  contactus: 'Contact us',
+  login: 'login',
+  register: 'register',
+  wantToReadList: [
+    {
+      id: 1,
+      type: 'want',
+      title: 'Lili',
+      event: 'wants to read',
+      date: 'today',
+      image:
+        'https://farshidkarami.ir/assets/image/myworks/courses/reactnativedeveloper.png',
+      bookTitle: 'A Fraction of the Whole',
+      bookAuthor: 'Steve Toltz',
+      rate: 3,
+      score: '3.68',
+      moretext: 'more',
+      genre: 'novel',
+      year: '2001',
+      lang: 'persian'
+    }
+  ],
+  addtoshelf: 'add to shelf',
+  addedtoshelf: 'added to shelf',
+
   hi: 'Hi, I am ',
   hi2: '',
   desc:
@@ -93,46 +119,11 @@ export default {
   email: 'Email',
   address: 'Address',
   addressdetails: '121 King Street, Melbourne, Victoria 3000, Australia',
-  portfoliosList: [
+  wantToRecadList: [
     {
       id: 1,
       title: 'reactdevveloper',
       desc: 'react js teacher reactdeveloper.ir',
-      image:
-        'https://farshidkarami.ir/assets/image/myworks/courses/reactnativedeveloper.png'
-    },
-    {
-      id: 2,
-      title: 'reactnativedevveloper',
-      desc: 'reactnative teacher reactnativedeveloper.ir',
-      image:
-        'https://farshidkarami.ir/assets/image/myworks/courses/faradarsreactnative.jpg'
-    },
-    {
-      id: 3,
-      title: 'reactdevveloper',
-      desc: 'react js teacher',
-      image:
-        'https://farshidkarami.ir/assets/image/myworks/courses/reactnativedeveloper.png'
-    },
-    {
-      id: 4,
-      title: 'reactdevveloper',
-      desc: 'react js teacher',
-      image:
-        'https://farshidkarami.ir/assets/image/myworks/courses/reactnativedeveloper.png'
-    },
-    {
-      id: 5,
-      title: 'reactdevveloper',
-      desc: 'react js teacher',
-      image:
-        'https://farshidkarami.ir/assets/image/myworks/courses/reactnativedeveloper.png'
-    },
-    {
-      id: 6,
-      title: 'reactdevveloper',
-      desc: 'react js teacher',
       image:
         'https://farshidkarami.ir/assets/image/myworks/courses/reactnativedeveloper.png'
     }

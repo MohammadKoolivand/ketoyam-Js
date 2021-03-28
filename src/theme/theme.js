@@ -14,7 +14,7 @@ theme = createMuiTheme({
       fontSize: getDircetion() === 'rtl' ? 50 : 52,
       lineHeight: '4rem',
       fontFamily: getFont(),
-      color: '#fff',
+      color: '#000',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 40 : 42
       }
@@ -24,7 +24,7 @@ theme = createMuiTheme({
       fontSize: getDircetion() === 'rtl' ? 38 : 40,
       lineHeight: '3.2857rem',
       fontFamily: getFont(),
-      color: '#FFF',
+      color: '#000',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 32 : 34
       }
@@ -35,7 +35,7 @@ theme = createMuiTheme({
       lineHeight: '2.7rem',
       fontFamily: getFont(),
       textAlign: 'left',
-      color: '#fff',
+      color: '#000',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 28 : 30
       }
@@ -45,7 +45,7 @@ theme = createMuiTheme({
       fontSize: getDircetion() === 'rtl' ? 26 : 28,
       lineHeight: '2.43rem',
       fontFamily: getFont(),
-      color: '#fff',
+      color: '#000',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 22 : 24
       }
@@ -55,7 +55,7 @@ theme = createMuiTheme({
       fontSize: getDircetion() === 'rtl' ? 21 : 23,
       lineHeight: '2.14rem',
       fontFamily: getFont(),
-      color: '#fff',
+      color: '#000',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 18 : 20
       }
@@ -65,7 +65,7 @@ theme = createMuiTheme({
       fontSize: getDircetion() === 'rtl' ? 16 : 18,
       lineHeight: '1.857rem',
       fontFamily: getFont(),
-      color: '#FFF',
+      color: '#000',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 14 : 16
       }
@@ -82,7 +82,7 @@ theme = createMuiTheme({
     },
     body2: {
       fontSize: getDircetion() === 'rtl' ? 13 : 15,
-      color: '#a4acc4',
+      color: '#000',
       fontFamily: getFont(),
       fontWeight: 600,
       letterSpacing: 1,
@@ -94,7 +94,7 @@ theme = createMuiTheme({
     body1: {
       fontSize: getDircetion() === 'rtl' ? 16 : 18,
       lineHeight: '1.8rem',
-      color: '#a4acc4',
+      color: '#000',
       fontFamily: getFont(),
       fontWeight: 400,
       textAlign: getDircetion() === 'rtl' ? 'justify' : 'left',
@@ -104,10 +104,12 @@ theme = createMuiTheme({
     },
     button: {
       fontSize: getDircetion() === 'rtl' ? 12 : 14,
-      color: '#FFF',
+      color: '#000',
       fontFamily: getFont(),
       fontWeight: 400,
       letterSpacing: 2,
+      textTransform: 'none',
+      alignItems: 'center',
       [theme.breakpoints.down('xs')]: {
         fontSize: getDircetion() === 'rtl' ? 12 : 14
       }
